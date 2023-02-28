@@ -8,3 +8,5 @@ def terminal(text):
     current_time = datetime.datetime.now()
     print(str(current_time) + "  |  " + text)
     # time.sleep(1)
+def TIMESTAMP():
+    return str(datetime.datetime.now())
